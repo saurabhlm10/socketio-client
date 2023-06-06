@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://socketio-server-env-2.eba-3p37vvyn.ap-south-1.elasticbeanstalk.com/');
+const socket = io('https://socketio-server-env-2.eba-3p37vvyn.ap-south-1.elasticbeanstalk.com/');
 
 function App() {
   const [message, setMessage] = useState('');
